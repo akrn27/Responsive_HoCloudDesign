@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(22, 22, 22);
+    background-color: #242424;
 }
 
 /* Navbar Start */
@@ -129,13 +129,14 @@ body {
 
 /* Card Start */
 .card {
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(73, 73, 73);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
     margin: 70px 25px;
     padding: 35px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
 }
 
 .card-left, .card-center, .card-right {
@@ -184,6 +185,10 @@ body {
 
 .service-top {
     grid-area: service-top;
+}
+
+.service-top p {
+    color: gray;
 }
 
 .service-top-button {
